@@ -2709,11 +2709,46 @@ export const universities: University[] = [
         "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1000&auto=format&fit=crop",
         "type": "private",
         "programs": [
-            "Бакалавриат",
-            "Магистратура",
-            "Докторантура",
-            "MBA",
-            "DBA"
+            {
+                "id": "uib-p-fix-0",
+                "name": "Бакалавриат",
+                "degree": "Bachelor",
+                "duration": "4 years",
+                "tuition": 0,
+                "language": "English"
+            },
+            {
+                "id": "uib-p-fix-1",
+                "name": "Магистратура",
+                "degree": "Master",
+                "duration": "2 years",
+                "tuition": 0,
+                "language": "English"
+            },
+            {
+                "id": "uib-p-fix-2",
+                "name": "Докторантура",
+                "degree": "PhD",
+                "duration": "2 years",
+                "tuition": 0,
+                "language": "English"
+            },
+            {
+                "id": "uib-p-fix-3",
+                "name": "MBA",
+                "degree": "Master",
+                "duration": "2 years",
+                "tuition": 0,
+                "language": "English"
+            },
+            {
+                "id": "uib-p-fix-4",
+                "name": "DBA",
+                "degree": "PhD",
+                "duration": "2 years",
+                "tuition": 0,
+                "language": "English"
+            }
         ],
         "admissions": {
             "deadline": "",
@@ -2926,11 +2961,46 @@ export const universities: University[] = [
         "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1000&auto=format&fit=crop",
         "type": "private",
         "programs": [
-            "Право",
-            "Экономика",
-            "Международные отношения",
-            "Журналистика",
-            "Психология"
+            {
+                "id": "uni--7962034477461320147-p-fix-0",
+                "name": "Право",
+                "degree": "Bachelor",
+                "duration": "4 years",
+                "tuition": 0,
+                "language": "English"
+            },
+            {
+                "id": "uni--7962034477461320147-p-fix-1",
+                "name": "Экономика",
+                "degree": "Bachelor",
+                "duration": "4 years",
+                "tuition": 0,
+                "language": "English"
+            },
+            {
+                "id": "uni--7962034477461320147-p-fix-2",
+                "name": "Международные отношения",
+                "degree": "Bachelor",
+                "duration": "4 years",
+                "tuition": 0,
+                "language": "English"
+            },
+            {
+                "id": "uni--7962034477461320147-p-fix-3",
+                "name": "Журналистика",
+                "degree": "Bachelor",
+                "duration": "4 years",
+                "tuition": 0,
+                "language": "English"
+            },
+            {
+                "id": "uni--7962034477461320147-p-fix-4",
+                "name": "Психология",
+                "degree": "Bachelor",
+                "duration": "4 years",
+                "tuition": 0,
+                "language": "English"
+            }
         ],
         "admissions": {
             "deadline": "",

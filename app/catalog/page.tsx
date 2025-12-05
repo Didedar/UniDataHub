@@ -9,7 +9,7 @@ export default function CatalogPage() {
     const [searchQuery, setSearchQuery] = useState("")
     const [selectedCity, setSelectedCity] = useState("all")
     const [selectedType, setSelectedType] = useState("all")
-    const [sortBy, setSortBy] = useState<"name" | "ranking" | "students">("name")
+    const [sortBy, setSortBy] = useState<"name" | "ranking" | "students">("ranking")
 
     // Extract unique cities and types
     const cities = useMemo(() => {

@@ -1,36 +1,131 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# UniDataHub - Каталог Университетов Казахстана
 
-## Getting Started
+Веб-приложение для каталога казахстанских университетов с автоматическим парсингом данных через **Crawl4AI + LLM**.
 
-First, run the development server:
+## 🚀 Возможности
+
+- **Crawl4AI** — мощный асинхронный парсер для динамических сайтов
+- **LLM Extraction** — структурированное извлечение данных через ИИ (Gemini, GPT-4, Groq)
+- **Pydantic Schema** — валидация и типизация данных
+- **5 разделов данных**:
+  1. Об университете (миссия, история, руководство, достижения)
+  2. Образовательные программы (бакалавриат, магистратура, PhD)
+  3. Поступление (требования, сроки, гранты)
+  4. 3D-тур (ссылки на виртуальные туры)
+  5. Международное сотрудничество (партнёры, обмен)
+
+## 📦 Установка
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Установить Python зависимости
+pip install -r requirements_scraper.txt
+
+# Установить браузер для Crawl4AI
+playwright install chromium
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔑 Настройка API ключа
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Для Google Gemini (рекомендуется)
+export GOOGLE_API_KEY="your-api-key"
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# ИЛИ для OpenAI
+export OPENAI_API_KEY="your-api-key"
 
-## Learn More
+# ИЛИ для Groq (быстрый и бесплатный)
+export GROQ_API_KEY="your-api-key"
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🕷️ Использование парсера
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Командная строка
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+# Парсить все университеты
+python crawl4ai_scraper.py --all
 
-## Deploy on Vercel
+# Парсить первые 3 (тест)
+python crawl4ai_scraper.py --all --limit 3
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Парсить один университет
+python crawl4ai_scraper.py --url https://nu.edu.kz --name "Nazarbayev University"
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Использовать OpenAI вместо Gemini
+python crawl4ai_scraper.py --all --provider openai/gpt-4o
+
+# Показать список университетов
+python crawl4ai_scraper.py --list
+```
+
+### API сервер
+
+```bash
+# Запустить сервер
+python api_server.py
+# или
+uvicorn api_server:app --reload --port 8000
+```
+
+**API эндпоинты:**
+- `GET /universities` — список университетов
+- `GET /scrape/{uni_id}` — спарсить университет
+- `GET /data/{uni_id}` — получить данные
+- `GET /data` — все данные
+- `POST /scrape-all` — запустить массовый парсинг
+
+## 🖥️ Frontend (Next.js)
+
+```bash
+npm install
+npm run dev
+```
+
+Открыть [http://localhost:3000](http://localhost:3000)
+
+## 📊 Структура данных
+
+```json
+{
+  "university_name": "Назарбаев Университет",
+  "city": "Астана",
+  "about": {
+    "mission": "...",
+    "history_summary": "...",
+    "leadership": "...",
+    "achievements": ["QS Top 200", "..."]
+  },
+  "academic_programs": [
+    {"program_name": "Computer Science", "degree_level": "Бакалавриат", "faculty": "SEDS"}
+  ],
+  "admissions": {
+    "requirements": "...",
+    "deadlines": "...",
+    "scholarships": "..."
+  },
+  "virtual_tour": {
+    "is_available": true,
+    "url": "https://..."
+  },
+  "international": {
+    "partners": ["MIT", "Duke", "..."],
+    "exchange_programs": "Erasmus+, ..."
+  }
+}
+```
+
+## 🏛️ Университеты (26 в базе)
+
+- Nazarbayev University
+- КазНУ им. аль-Фараби
+- ЕНУ им. Гумилёва
+- Satbayev University
+- КБТУ
+- KIMEP
+- Narxoz University
+- Astana IT University
+- И другие...
+
+## 📝 Лицензия
+
+MIT License

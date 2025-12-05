@@ -1,0 +1,82 @@
+{
+  "last_update": "2025-12-05T20:49:27.151991",
+  "universities": [
+    {
+      "index": 0,
+      "error": true,
+      "tags": [
+        "error"
+      ],
+      "content": "litellm.RateLimitError: litellm.RateLimitError: geminiException - {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 200, model: gemini-2.0-flash\\nPlease retry in 55.936755788s.\",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quotas\",\n            \"url\": \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.QuotaFailure\",\n        \"violations\": [\n          {\n            \"quotaMetric\": \"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\n            \"quotaId\": \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\n            \"quotaDimensions\": {\n              \"model\": \"gemini-2.0-flash\",\n              \"location\": \"global\"\n            },\n            \"quotaValue\": \"200\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.RetryInfo\",\n        \"retryDelay\": \"55s\"\n      }\n    ]\n  }\n}\n",
+      "_metadata": {
+        "source_url": "https://nu.edu.kz",
+        "original_name": "Nazarbayev University",
+        "city": "Unknown",
+        "scraped_at": "2025-12-05T20:41:03.961951",
+        "provider": "gemini/gemini-2.0-flash",
+        "attempts": 1,
+        "pages_scraped": 1
+      }
+    },
+    {
+      "index": 0,
+      "error": true,
+      "tags": [
+        "error"
+      ],
+      "content": "litellm.NotFoundError: GeminiException - {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "university_name": "Казахский национальный университет им. аль-Фараби",
+      "website": "https://kaznu.kz",
+      "city": "Алматы",
+      "_scraped_at": "2025-12-05T20:48:36.917695"
+    },
+    {
+      "index": 0,
+      "error": true,
+      "tags": [
+        "error"
+      ],
+      "content": "litellm.NotFoundError: GeminiException - {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "university_name": "Satbayev University",
+      "website": "https://satbayev.university",
+      "city": "Алматы",
+      "_scraped_at": "2025-12-05T20:48:46.207601"
+    },
+    {
+      "index": 0,
+      "error": true,
+      "tags": [
+        "error"
+      ],
+      "content": "litellm.NotFoundError: GeminiException - {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "university_name": "КБТУ",
+      "website": "https://kbtu.kz",
+      "city": "Алматы",
+      "_scraped_at": "2025-12-05T20:49:00.022279"
+    },
+    {
+      "index": 0,
+      "error": true,
+      "tags": [
+        "error"
+      ],
+      "content": "litellm.NotFoundError: GeminiException - {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "university_name": "KIMEP University",
+      "website": "https://kimep.kz",
+      "city": "Алматы",
+      "_scraped_at": "2025-12-05T20:49:12.615953"
+    },
+    {
+      "index": 0,
+      "error": true,
+      "tags": [
+        "error"
+      ],
+      "content": "litellm.NotFoundError: GeminiException - {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "university_name": "Astana IT University",
+      "website": "https://astanait.edu.kz",
+      "city": "Астана",
+      "_scraped_at": "2025-12-05T20:49:27.151644"
+    }
+  ]
+}

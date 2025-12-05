@@ -1,0 +1,22 @@
+# Crawl4AI University Scraper Dependencies
+# =========================================
+
+# Core - Crawl4AI (включает Playwright)
+crawl4ai>=0.4.0
+
+# Data validation
+pydantic>=2.0.0
+
+# LLM Providers (выберите один или несколько)
+google-generativeai>=0.8.0  # Для Google Gemini
+# openai>=1.0.0             # Для OpenAI GPT
+# groq>=0.4.0               # Для Groq (быстрый и дешёвый)
+
+# Utilities
+python-dotenv>=1.0.0
+
+# Note: Crawl4AI автоматически установит:
+# - playwright
+# - beautifulsoup4
+# - aiohttp
+# - и другие зависимости

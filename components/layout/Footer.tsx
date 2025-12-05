@@ -27,8 +27,8 @@ export function Footer() {
                         <h3 className="font-semibold text-white mb-4">Contact</h3>
                         <ul className="space-y-2 text-sm">
                             <li>Astana, Kazakhstan</li>
-                            <li>info@unidatahub.kz</li>
-                            <li>+7 (777) 123-45-67</li>
+                            <li>sabyrhandarhan@gmail.com</li>
+                            <li>8 777 475 2648</li>
                         </ul>
                     </div>
                 </div>

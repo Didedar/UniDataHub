@@ -1,71 +1,6 @@
 {
-  "last_update": "2025-12-05T20:49:27.151991",
+  "last_update": "2025-12-06T00:01:53.633499",
   "universities": [
-    {
-      "index": 0,
-      "error": true,
-      "tags": [
-        "error"
-      ],
-      "content": "litellm.RateLimitError: litellm.RateLimitError: geminiException - {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 200, model: gemini-2.0-flash\\nPlease retry in 55.936755788s.\",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quotas\",\n            \"url\": \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.QuotaFailure\",\n        \"violations\": [\n          {\n            \"quotaMetric\": \"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\n            \"quotaId\": \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\n            \"quotaDimensions\": {\n              \"model\": \"gemini-2.0-flash\",\n              \"location\": \"global\"\n            },\n            \"quotaValue\": \"200\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.RetryInfo\",\n        \"retryDelay\": \"55s\"\n      }\n    ]\n  }\n}\n",
-      "_metadata": {
-        "source_url": "https://nu.edu.kz",
-        "original_name": "Nazarbayev University",
-        "city": "Unknown",
-        "scraped_at": "2025-12-05T20:41:03.961951",
-        "provider": "gemini/gemini-2.0-flash",
-        "attempts": 1,
-        "pages_scraped": 1
-      }
-    },
-    {
-      "index": 0,
-      "error": true,
-      "tags": [
-        "error"
-      ],
-      "content": "litellm.NotFoundError: GeminiException - {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
-      "university_name": "Казахский национальный университет им. аль-Фараби",
-      "website": "https://kaznu.kz",
-      "city": "Алматы",
-      "_scraped_at": "2025-12-05T20:48:36.917695"
-    },
-    {
-      "index": 0,
-      "error": true,
-      "tags": [
-        "error"
-      ],
-      "content": "litellm.NotFoundError: GeminiException - {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
-      "university_name": "Satbayev University",
-      "website": "https://satbayev.university",
-      "city": "Алматы",
-      "_scraped_at": "2025-12-05T20:48:46.207601"
-    },
-    {
-      "index": 0,
-      "error": true,
-      "tags": [
-        "error"
-      ],
-      "content": "litellm.NotFoundError: GeminiException - {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
-      "university_name": "КБТУ",
-      "website": "https://kbtu.kz",
-      "city": "Алматы",
-      "_scraped_at": "2025-12-05T20:49:00.022279"
-    },
-    {
-      "index": 0,
-      "error": true,
-      "tags": [
-        "error"
-      ],
-      "content": "litellm.NotFoundError: GeminiException - {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
-      "university_name": "KIMEP University",
-      "website": "https://kimep.kz",
-      "city": "Алматы",
-      "_scraped_at": "2025-12-05T20:49:12.615953"
-    },
     {
       "index": 0,
       "error": true,
@@ -76,7 +11,2572 @@
       "university_name": "Astana IT University",
       "website": "https://astanait.edu.kz",
       "city": "Астана",
-      "_scraped_at": "2025-12-05T20:49:27.151644"
+      "_scraped_at": "2025-12-05T20:56:26.571054"
+    },
+    {
+      "index": 0,
+      "error": true,
+      "tags": [
+        "error"
+      ],
+      "content": "litellm.NotFoundError: GeminiException - {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n",
+      "university_name": "МУИТ (IITU)",
+      "website": "https://iitu.edu.kz",
+      "city": "Алматы",
+      "_scraped_at": "2025-12-05T20:56:40.069302"
+    },
+    {
+      "university_name": "Sync Verification",
+      "city": "Unknown",
+      "website": "https://example.com",
+      "about": {
+        "mission": null,
+        "history_summary": null,
+        "leadership": null,
+        "achievements": []
+      },
+      "academic_programs": [],
+      "admissions": {
+        "requirements": null,
+        "deadlines": null,
+        "scholarships": null,
+        "tuition_info": null
+      },
+      "virtual_tour": {
+        "is_available": false,
+        "url": null
+      },
+      "international": {
+        "partners": [],
+        "exchange_programs": null
+      },
+      "stats": {
+        "employment_rate": null,
+        "student_count": null
+      },
+      "error": false,
+      "_scraped_at": "2025-12-05T21:25:32.424000"
+    },
+    {
+      "about_university": {
+        "mission": null,
+        "history": null,
+        "leadership": "Информация о руководстве доступна по ссылке \"Басқару\" (Управление).",
+        "achievements": [
+          "Лидерство в Центральной Азии согласно Shanghai Subject Rankings 2025.",
+          "Поднялся на 100 позиций в мировом рейтинге университетов Times Higher Education.",
+          "Входит в 23% лучших международных исследовательских университетов по Times Higher Education World University Rankings 2026 (THE WUR).",
+          "#1 на Кавказе и в Центральной Азии в рейтинге Times Higher Education World University Rankings (THE WUR) 2026.",
+          "150-е место в списке Times Higher Education (THE) Asia University Rankings 2025 среди 853 высших учебных заведений."
+        ],
+        "sources": [
+          "https://nu.edu.kz"
+        ]
+      },
+      "academic_programs": [
+        {
+          "program_name": "Foundation Year Program"
+        },
+        {
+          "program_name": "Undergraduate Programs (Бакалавриат)"
+        },
+        {
+          "program_name": "Graduate Programs (Магистратура)"
+        },
+        {
+          "program_name": "Postgraduate Programs (Докторантура)"
+        },
+        {
+          "program_name": "Евразийская бизнес-программа (Бакалавриат, совместная с NUGSB и HKUST)"
+        },
+        {
+          "program_name": "MA Global Affairs and Eurasian Studies (Совместная с NU SSH и SOAS)"
+        },
+        {
+          "program_name": "Новая магистерская программа по изучению Евразии (Совместная с SOAS University of London)"
+        }
+      ],
+      "admissions": {
+        "requirements": "Для каждой программы в NU существуют свои требования, включая академическую квалификацию, соответствующий опыт и уровень владения английским языком. Подробная информация о требованиях для программ бакалавриата, магистратуры и докторантуры доступна на странице приема.",
+        "deadlines": [
+          "Начался прием документов на весенний семестр.",
+          "Информация о приеме 2024 года доступна по ссылке."
+        ],
+        "scholarships_fin_aid": "Доступны образовательные гранты NU, для обладателей которых действует трехлетнее рабочее обязательство. Информация о платежах и финансировании доступна по ссылке.",
+        "contacts": {
+          "phone": [
+            "8 (7172) 70-66-88"
+          ],
+          "email": [
+            "nu@nu.edu.kz",
+            "pressa@nu.edu.kz"
+          ],
+          "url": "https://nu.edu.kz/contacts"
+        },
+        "sources": [
+          "https://nu.edu.kz"
+        ]
+      },
+      "tour_3d": {
+        "tour_url": null,
+        "provider": null,
+        "notes": "На главной странице предлагается записаться на экскурсию по кампусу (не виртуальный тур).",
+        "sources": [
+          "https://nu.edu.kz"
+        ]
+      },
+      "international_cooperation": {
+        "overview": "Университет осуществляет международное сотрудничество. Подробная информация доступна по ссылке. Осуществляется прием иностранных студентов.",
+        "exchange_programs": null,
+        "partner_universities": [
+          "HKUST (Hong Kong University of Science and Technology)",
+          "SOAS University of London"
+        ],
+        "international_students": "Прием иностранных студентов осуществляется (есть отдельная страница для приема).",
+        "sources": [
+          "https://nu.edu.kz"
+        ]
+      },
+      "stats": {
+        "numbers": [
+          {
+            "label": "Рейтинг Times Higher Education World University Rankings 2026 (THE WUR)",
+            "value": "Входит в 23%",
+            "context": "лучших международных исследовательских университетов"
+          },
+          {
+            "label": "Рейтинг Times Higher Education World University Rankings (THE WUR) 2026",
+            "value": "#1",
+            "context": "на Кавказе и в Центральной Азии"
+          },
+          {
+            "label": "Рейтинг Times Higher Education (THE) Asia University Rankings 2025",
+            "value": "150",
+            "context": "среди 853 высших учебных заведений"
+          }
+        ],
+        "sources": [
+          "https://nu.edu.kz"
+        ]
+      },
+      "university_name": "Nazarbayev University",
+      "website": "https://nu.edu.kz",
+      "city": "Unknown",
+      "_scraped_at": "2025-12-05T23:23:30.479072"
+    },
+    {
+      "id": "uni--kaznu",
+      "name": "ӘЛ-ФАРАБИ АТЫНДАҒЫ ҚАЗАҚ ҰЛТТЫҚ УНИВЕРСИТЕТІ",
+      "shortName": "ҚАЗҰУ",
+      "location": "",
+      "description": "Руководство: Ректором университета является Жансейіт Түймебаев. Он был принят Президентом и награжден орденом \"Барыс\" II степени.\n\nДостижения: Университет поднялся на 150-е место в мировом рейтинге QS WUR. КазНУ выиграл 75 научных проектов на 2023-2025 годы.\n\nПоступление (требования): Приемная комиссия проводит профориентационную работу среди учащихся 11 классов. Конкретные требования для абитуриентов на главной странице не указаны.\n\nСроки приёма: На сайте сообщается о начале приема документов в КазНУ. Точные сроки приема необходимо уточнять.\n\nГранты/скидки/стипендии: Информация о грантах и скидках на главной странице отсутствует.\n\nМеждународные партнёры (примеры): КазНУ подписал меморандум с Катарским университетом и участвует в Сетевом университете Шанхайской организации сотрудничества (ШОС).\n\n3D-тур: http://3dtour.kaznu.kz/",
+      "foundedYear": 0,
+      "ranking": 150,
+      "studentCount": 0,
+      "acceptanceRate": 0,
+      "tuitionRange": {
+        "min": 0,
+        "max": 0
+      },
+      "website": "https://kaznu.kz",
+      "logoUrl": "/logos/uni--kaznu.png",
+      "imageUrl": "",
+      "type": "state",
+      "programs": [
+        {
+          "id": "uni--kaznu-p-0",
+          "name": "Іскерлік әкімшілендіру мастері (MBA)",
+          "degree": "Master",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kaznu-p-1",
+          "name": "Халықаралық білім беру бағдарламалары",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kaznu-p-2",
+          "name": "Дистанциялық білім беру",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kaznu-p-3",
+          "name": "Ғылым және білім беру интеграциясы",
+          "degree": "PhD",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kaznu-p-4",
+          "name": "Білім беру бағдарламалары",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        }
+      ],
+      "admissions": {
+        "deadline": [],
+        "requirements": [],
+        "scholarships": []
+      },
+      "international": {
+        "partners": 0,
+        "exchangePrograms": [
+          "Шанхай ынтымақтастық ұйымының желілік университеті"
+        ]
+      },
+      "stats": {
+        "employmentRate": 0,
+        "researchOutput": "Medium",
+        "studentSatisfaction": 0
+      },
+      "university_name": "Казахский национальный университет им. аль-Фараби",
+      "city": "Алматы",
+      "_scraped_at": "2025-12-05T23:41:37.582694"
+    },
+    {
+      "id": "uni--satbayev-university",
+      "name": "Қазақ ұлттық техникалық зерттеу университеті",
+      "shortName": "Satbayev University",
+      "location": "Алматы",
+      "description": "Руководство: Ссылка на раздел «Университет басшылығы» доступна в навигации.\n\nДостижения: Satbayev University является ведущим техническим университетом страны. Диплом признан в странах СНГ, Европы и Азии, а также аккредитован в США.\n\nПоступление (требования): Для поступления в магистратуру необходимо пройти комплексное тестирование, включающее тест по английскому языку, тест на готовность к обучению и профильный тест.\n\nСроки приёма: Регистрация для поступления проводится до 28 августа (летний прием) и до 10 января (зимний прием).\n\nГранты/скидки/стипендии: Предоставляется возможность получения образовательного гранта. Доступна информация о стоимости обучения и условиях отработки государственного образовательного гранта.\n\nМеждународные партнёры (примеры): Университет сотрудничает с 97 ведущими зарубежными вузами. Предлагаются программы двойного диплома, включая партнерство с City University of Hong Kong.\n\n3D-тур: ",
+      "foundedYear": 0,
+      "ranking": 0,
+      "studentCount": 0,
+      "acceptanceRate": 0,
+      "tuitionRange": {
+        "min": 0,
+        "max": 0
+      },
+      "website": "https://satbayev.university",
+      "logoUrl": "/logos/uni--satbayev-university.png",
+      "imageUrl": "https://satbayev.university/files/img/university/logo-nav-blue.svg",
+      "type": "state",
+      "programs": [
+        {
+          "id": "uni--satbayev-university-p-0",
+          "name": "Геология және мұнай-газ ісі институты",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--satbayev-university-p-1",
+          "name": "Тау-кен металлургия институты",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--satbayev-university-p-2",
+          "name": "Автоматтандыру және ақпараттық технологиялар институты",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--satbayev-university-p-3",
+          "name": "Энергетика және машина жасау институты",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--satbayev-university-p-4",
+          "name": "Сәулет және құрылыс институты",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--satbayev-university-p-5",
+          "name": "Бакалавриат (76 образовательных программ)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh|Russian|English"
+        },
+        {
+          "id": "uni--satbayev-university-p-6",
+          "name": "Магистратура (67 образовательных программ)",
+          "degree": "Master",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh|Russian|English"
+        },
+        {
+          "id": "uni--satbayev-university-p-7",
+          "name": "Докторантура (59 образовательных программ)",
+          "degree": "PhD",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh|Russian|English"
+        },
+        {
+          "id": "uni--satbayev-p-0",
+          "name": "Цифровой мониторинг машин и оборудования",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh/Russian"
+        },
+        {
+          "id": "uni--satbayev-p-1",
+          "name": "Финансовая аналитика",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh/Russian"
+        },
+        {
+          "id": "uni--satbayev-p-2",
+          "name": "Информационные системы",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh/Russian"
+        },
+        {
+          "id": "uni--satbayev-p-3",
+          "name": "Математическое и компьютерное моделирование",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh/Russian"
+        },
+        {
+          "id": "uni--satbayev-p-4",
+          "name": "Инженерия кибербезопасности",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh/Russian"
+        },
+        {
+          "id": "uni--satbayev-p-5",
+          "name": "Компьютерные науки (Computer Science)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh/Russian"
+        },
+        {
+          "id": "uni--satbayev-p-6",
+          "name": "Геодезия и картография",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh/Russian"
+        },
+        {
+          "id": "uni--satbayev-p-7",
+          "name": "Маркшейдерское дело",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh/Russian"
+        },
+        {
+          "id": "uni--satbayev-p-8",
+          "name": "Электроника и электротехника (энергетика)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh/Russian"
+        },
+        {
+          "id": "uni--satbayev-p-9",
+          "name": "Цифровая энергетика",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh/Russian"
+        },
+        {
+          "id": "uni--satbayev-p-10",
+          "name": "Ядерная энергетика",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh/Russian"
+        },
+        {
+          "id": "uni--satbayev-p-11",
+          "name": "Строительная инженерия (Civil Engineering)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh/Russian"
+        },
+        {
+          "id": "uni--satbayev-p-12",
+          "name": "Робототехника и мехатроника",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh/Russian"
+        },
+        {
+          "id": "uni--satbayev-p-13",
+          "name": "Нефтяная инженерия",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh/Russian"
+        },
+        {
+          "id": "uni--satbayev-p-14",
+          "name": "Автоматизация и роботизация",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh/Russian"
+        },
+        {
+          "id": "uni--satbayev-university-p-0",
+          "name": "Көлік инфрақұрылымы: сертификаттау және техникалық сараптама",
+          "degree": "Master",
+          "duration": "1-2 years",
+          "tuition": 0,
+          "language": "Kazakh, Russian, English"
+        },
+        {
+          "id": "uni--satbayev-university-p-1",
+          "name": "Темір жол көлігі",
+          "degree": "Master",
+          "duration": "1-2 years",
+          "tuition": 0,
+          "language": "Kazakh, Russian, English"
+        },
+        {
+          "id": "uni--satbayev-university-p-2",
+          "name": "Көлік қызметтері",
+          "degree": "Master",
+          "duration": "1-2 years",
+          "tuition": 0,
+          "language": "Kazakh, Russian, English"
+        },
+        {
+          "id": "uni--satbayev-university-p-3",
+          "name": "Логистика",
+          "degree": "Master",
+          "duration": "1-2 years",
+          "tuition": 0,
+          "language": "Kazakh, Russian, English"
+        },
+        {
+          "id": "uni--satbayev-university-p-4",
+          "name": "Көлік, көлік техникасы және технологиялары",
+          "degree": "Master",
+          "duration": "1-2 years",
+          "tuition": 0,
+          "language": "Kazakh, Russian, English"
+        },
+        {
+          "id": "uni--satbayev-university-p-5",
+          "name": "Цифрлық (барлау) геофизикасы",
+          "degree": "Master",
+          "duration": "1-2 years",
+          "tuition": 0,
+          "language": "Kazakh, Russian, English"
+        },
+        {
+          "id": "uni--satbayev-university-p-6",
+          "name": "Инженерлік геофизика",
+          "degree": "Master",
+          "duration": "1-2 years",
+          "tuition": 0,
+          "language": "Kazakh, Russian, English"
+        },
+        {
+          "id": "uni--satbayev-university-p-7",
+          "name": "Қолданбалы сейсмология",
+          "degree": "Master",
+          "duration": "1-2 years",
+          "tuition": 0,
+          "language": "Kazakh, Russian, English"
+        },
+        {
+          "id": "uni--satbayev-university-p-8",
+          "name": "Су дипломатиясы",
+          "degree": "Master",
+          "duration": "1-2 years",
+          "tuition": 0,
+          "language": "Kazakh, Russian, English"
+        },
+        {
+          "id": "uni--satbayev-university-p-9",
+          "name": "Газ инженериясы",
+          "degree": "Master",
+          "duration": "1-2 years",
+          "tuition": 0,
+          "language": "Kazakh, Russian, English"
+        },
+        {
+          "id": "uni--satbayev-university-p-10",
+          "name": "Органикалық заттардың химиялық технологиясы",
+          "degree": "Master",
+          "duration": "1-2 years",
+          "tuition": 0,
+          "language": "Kazakh, Russian, English"
+        },
+        {
+          "id": "uni--satbayev-university-p-11",
+          "name": "Биотехнология",
+          "degree": "Master",
+          "duration": "1-2 years",
+          "tuition": 0,
+          "language": "Kazakh, Russian, English"
+        },
+        {
+          "id": "uni--satbayev-university-p-12",
+          "name": "Су ресурстары және суды пайдалану",
+          "degree": "Master",
+          "duration": "1-2 years",
+          "tuition": 0,
+          "language": "Kazakh, Russian, English"
+        },
+        {
+          "id": "uni--satbayev-university-p-13",
+          "name": "Сейсмология",
+          "degree": "Master",
+          "duration": "1-2 years",
+          "tuition": 0,
+          "language": "Kazakh, Russian, English"
+        },
+        {
+          "id": "uni--satbayev-university-p-14",
+          "name": "Көмірсутекті қосылыстардың химиялық инженериясы",
+          "degree": "Master",
+          "duration": "1-2 years",
+          "tuition": 0,
+          "language": "Kazakh, Russian, English"
+        }
+      ],
+      "admissions": {
+        "deadline": [
+          "16 мая – 7 июля: Подача заявления на участие в Национальном тестировании (ҰБТ)",
+          "8–13 июля: Сдача документов на творческие экзамены",
+          "13 июля – 20 июля: Подача заявки на конкурс государственных грантов",
+          "До 25 августа: Срок зачисления в университет",
+          "28 тамызға дейін (жаз)",
+          "10 қаңтарға дейін (қыс)"
+        ],
+        "requirements": [
+          "Требования к проходным баллам (шекті баллдар) для бакалавриата доступны в документе: https://satbayev.university/upload/base/downloads/Bakalavriattyin-bilim-beru-bagdarlamalaryi-toptaryi-boiyinsha-shekti-balldar-2025.pdf",
+          "Минимальный пороговый балл ЕНТ: 65 баллов.",
+          "Кешенді тестілеу (ағылшын тілі, тест на готовность к обучению в магистратуре, тест по профилю группы образовательных программ).",
+          "Подача заявки на app.testcenter.kz."
+        ],
+        "scholarships": [
+          "Ежегодно выделяется более 2000 государственных грантов (Бакалавриат).",
+          "Гранты с возможностью трудоустройства в «Казатомпром» (Магистратура).",
+          "Ежегодно выделяется более 2000 государственных образовательных грантов.",
+          "Возможность получения образовательного гранта.",
+          "Мемлекеттік білім беру грантын жұмыспен өтеу (Отработка государственного образовательного гранта)."
+        ]
+      },
+      "international": {
+        "partners": 97,
+        "exchangePrograms": [
+          "Қос диплом бағдарламасы (Dual Degree Program)",
+          "Шетелде оқу (Study Abroad)",
+          "City University of Hong Kong",
+          "Программа двойного диплома",
+          "Қос диплом бағдарламасы (Dual degree program)",
+          "Шетелде оқу (Study abroad)"
+        ]
+      },
+      "stats": {
+        "employmentRate": 0,
+        "researchOutput": "High",
+        "studentSatisfaction": 0
+      },
+      "university_name": "Satbayev University (КазНИТУ)",
+      "city": "Алматы",
+      "_scraped_at": "2025-12-05T23:42:38.413196"
+    },
+    {
+      "id": "uni--kaznpu",
+      "name": "Абай атындағы Қазақ ұлттық педагогикалық университеті",
+      "shortName": "ҚазҰПУ",
+      "location": "Алматы",
+      "description": "Руководство: Председателем Правления – Ректором университета является Б. Тілеп, который упоминается в новостных материалах университета.\n\nДостижения: Университет активно демонстрирует свое присутствие в мировых рейтингах QS (QS World University Rankings, QS Subject Rankings). Среди выпускников — министры, послы, известные ученые и деятели культуры Казахстана.\n\nПоступление (требования): Подробная информация о приеме и требованиях доступна на сайте Приемной комиссии (https://abiturient.abaiuniversity.edu.kz/).\n\nСроки приёма: Конкретные сроки приема документов на главной странице не указаны.\n\nГранты/скидки/стипендии: Согласно объявлению от 26.11.2025, 341 студент получил скидки (жеңілдік) на оплату обучения.\n\nМеждународные партнёры (примеры): Университет сотрудничает с международными вузами, включая Московский городской педагогический университет и Европейский университет прикладных наук.\n\n3D-тур: https://kaznpu.kz/kz/1733/page/",
+      "foundedYear": 0,
+      "ranking": 0,
+      "studentCount": 0,
+      "acceptanceRate": 0,
+      "tuitionRange": {
+        "min": 0,
+        "max": 0
+      },
+      "website": "https://kaznpu.kz",
+      "logoUrl": "/logos/uni--kaznpu.png",
+      "imageUrl": "",
+      "type": "state",
+      "programs": [
+        {
+          "id": "uni--kaznpu-p-0",
+          "name": "Математика, физика и информатика",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznpu-p-1",
+          "name": "Педагогика и психология",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznpu-p-2",
+          "name": "Филология",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznpu-p-3",
+          "name": "История и право",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznpu-p-4",
+          "name": "Искусство",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznpu-p-5",
+          "name": "Foundation",
+          "degree": "Foundation",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznpu-p-0",
+          "name": "Бакалавриат",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznpu-p-1",
+          "name": "Магистратура",
+          "degree": "Master",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznpu-p-2",
+          "name": "Докторантура",
+          "degree": "PhD",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznpu-p-3",
+          "name": "Сорбонна - Қазақстан институты",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznpu-p-4",
+          "name": "Математика, физика және информатика факультеті",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznpu-p-5",
+          "name": "Педагогика және психология факультеті",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznpu-p-6",
+          "name": "Филология факультеті",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznpu-p-7",
+          "name": "Жаратылыстану және география факультеті",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznpu-p-8",
+          "name": "Өнер факультеті",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznpu-p-9",
+          "name": "Тарих және құқық факультеті",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznpu-p-10",
+          "name": "Foundation факультеті",
+          "degree": "Foundation",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        }
+      ],
+      "admissions": {
+        "deadline": [],
+        "requirements": [],
+        "scholarships": [
+          "Скидки на обучение (жеңілдік)"
+        ]
+      },
+      "international": {
+        "partners": 0,
+        "exchangePrograms": [
+          "Erasmus+",
+          "Халықаралық бағдарламалар",
+          "Академиялық ұтқырлық"
+        ]
+      },
+      "stats": {
+        "employmentRate": 0,
+        "researchOutput": "Medium",
+        "studentSatisfaction": 0
+      },
+      "university_name": "Казахский национальный педагогический университет им. Абая",
+      "city": "Алматы",
+      "_scraped_at": "2025-12-05T23:44:36.667524"
+    },
+    {
+      "index": 0,
+      "error": true,
+      "tags": [
+        "error"
+      ],
+      "content": "litellm.InternalServerError: litellm.InternalServerError: geminiException - {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"The model is overloaded. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+      "university_name": "Казахский национальный аграрный исследовательский университет",
+      "website": "https://kaznau.kz",
+      "city": "Алматы",
+      "_scraped_at": "2025-12-05T23:45:28.254270"
+    },
+    {
+      "id": "uni--kazatu",
+      "name": "С.Сейфуллин атындағы Қазақ агротехникалық зерттеу университеті",
+      "shortName": "ҚАТЗУ",
+      "location": "Астана",
+      "description": "Руководство: Председателем Правления НАО «Казахский агротехнический университет им. С. Сейфуллина» является Кайрат Капарович Айтуганов. \n\nДостижения: Миссия ҚазАТЗУ — быть лидером по качеству и доступности образования, а также центром междисциплинарных исследований и научных разработок. К 2030 году университет стремится стать высокоуровневым исследовательским вузом с институциональной автономией, признанным за влияние на АПК Республики Казахстан. \n\nПоступление (требования): Требования к поступлению на данной странице не указаны. \n\nСроки приёма: Сроки приема документов не указаны. \n\nГранты/скидки/стипендии: Университет предоставляет информацию о вакантных государственных образовательных грантах и Президентской стипендии. \n\nМеждународные партнёры (примеры): Университет расширяет глобальные связи и осуществляет международное сотрудничество, включая программы академической мобильности и проекты, такие как Erasmus. \n\n3D-тур: ",
+      "foundedYear": 1959,
+      "ranking": 0,
+      "studentCount": 0,
+      "acceptanceRate": 0,
+      "tuitionRange": {
+        "min": 0,
+        "max": 0
+      },
+      "website": "https://kazatu.edu.kz",
+      "logoUrl": "/logos/uni--kazatu.png",
+      "imageUrl": "https://kazatu.edu.kz/img/slides/e086960d6a7d900c225ee90df199f27d.png",
+      "type": "state",
+      "programs": [
+        {
+          "id": "uni--kazatu-p-0",
+          "name": "Бакалавриат",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh|Russian"
+        },
+        {
+          "id": "uni--kazatu-p-1",
+          "name": "Магистратура",
+          "degree": "Master",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh|Russian"
+        },
+        {
+          "id": "uni--kazatu-p-2",
+          "name": "Докторантура",
+          "degree": "PhD",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh|Russian"
+        },
+        {
+          "id": "uni--kazatu-p-3",
+          "name": "Информатика (8D06102)",
+          "degree": "PhD",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh|Russian"
+        },
+        {
+          "id": "uni--kazatu-p-4",
+          "name": "Технология продовольственных продуктов (8D07201)",
+          "degree": "PhD",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh|Russian"
+        },
+        {
+          "id": "uni--kazatu-p-5",
+          "name": "Аграрный факультет",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh|Russian"
+        },
+        {
+          "id": "uni--kazatu-p-6",
+          "name": "Факультет ветеринарии и технологии животноводства",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh|Russian"
+        },
+        {
+          "id": "uni--kazatu-p-0",
+          "name": "Фитосанитарная безопасность",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-1",
+          "name": "Агрономия",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-2",
+          "name": "Селекция и семеноводство",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-3",
+          "name": "Агротехнология",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-4",
+          "name": "Почвоведение и агрохимия",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-5",
+          "name": "Передовая агрономическая наука",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-6",
+          "name": "Биология",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-7",
+          "name": "Ветеринарная безопасность",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-8",
+          "name": "Ветеринария",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-9",
+          "name": "Продовольственная безопасность",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-10",
+          "name": "Сельскохозяйственная биотехнология",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-11",
+          "name": "Биотехнология",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-12",
+          "name": "Животноводство",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-13",
+          "name": "Зоотехния",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-14",
+          "name": "Птицеводство",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-1",
+          "name": "Кәсіптік білім берудегі лидерлік",
+          "degree": "Master",
+          "duration": "2 years",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-2",
+          "name": "Дизайн",
+          "degree": "Master",
+          "duration": "2 years",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-3",
+          "name": "Аграрлық менеджмент",
+          "degree": "Master",
+          "duration": "2 years",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-4",
+          "name": "SARUD Тұрақты ауыл шаруашылығы және ауыл аймақтарын дамыту",
+          "degree": "Master",
+          "duration": "2 years",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-5",
+          "name": "Бухгалтерлік есеп және бизнесті құқықтық қамтамасыз ету",
+          "degree": "Master",
+          "duration": "2 years",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-6",
+          "name": "Мемлекеттік және нақты сектордың қаржысы",
+          "degree": "Master",
+          "duration": "2 years",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-7",
+          "name": "Қаржы",
+          "degree": "Master",
+          "duration": "2 years",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-8",
+          "name": "Маркетинг және тауарлар мен қызметтер нарығында брендтерді басқару",
+          "degree": "Master",
+          "duration": "2 years",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-9",
+          "name": "Аналитикалық экономика",
+          "degree": "Master",
+          "duration": "1 year",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-10",
+          "name": "Стратегиялық менеджмент (Executive MBA)",
+          "degree": "Master",
+          "duration": "1 year",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-11",
+          "name": "Бизнес менеджмент және технологиялар",
+          "degree": "Master",
+          "duration": "1 year",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-12",
+          "name": "Аграрлық бизнес",
+          "degree": "Master",
+          "duration": "2 years",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-13",
+          "name": "Бухгалтерлік есеп және бизнес-аналитика",
+          "degree": "Master",
+          "duration": "1 year",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-14",
+          "name": "Ветеринариялық биотехнология",
+          "degree": "Master",
+          "duration": "2 years",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazatu-p-15",
+          "name": "Өсімдік биотехнология",
+          "degree": "Master",
+          "duration": "2 years",
+          "tuition": 0,
+          "language": "Kazakh"
+        }
+      ],
+      "admissions": {
+        "deadline": [],
+        "requirements": [
+          "Информация для поступающих на высшее и послевузовское образование доступна в разделе «Талапкерлерге» (Абитуриентам)."
+        ],
+        "scholarships": [
+          "Бос мемлекеттік білім беру гранттары (Вакантные государственные образовательные гранты)",
+          "Президенттік стипендия (Президентская стипендия)",
+          "Гранты от фонда «Қазақстан халқына»",
+          "Президенттік стипендия",
+          "Бос мемлекеттік білім беру гранттары"
+        ]
+      },
+      "international": {
+        "partners": 15,
+        "exchangePrograms": [
+          "Erasmus+",
+          "Erasmus",
+          "Академиялық ұтқырлық"
+        ]
+      },
+      "stats": {
+        "employmentRate": 0,
+        "researchOutput": "",
+        "studentSatisfaction": 0
+      },
+      "university_name": "Казахский агротехнический университет им. С. Сейфуллина",
+      "city": "Астана",
+      "_scraped_at": "2025-12-05T23:46:00.444367"
+    },
+    {
+      "id": "uni--kaznmu-aksay",
+      "name": "Детский центр «Аксай» КазНМУ имени С.Д. Асфендиярова",
+      "shortName": "УК «Аксай»",
+      "location": "Алматы",
+      "description": "Руководство: Руководителем школы детской неврологии является доктор медицинских наук, профессор Идрисова Жанат Рустемовна, член Американской Ассоциации неврологов.\n\nДостижения: Клиника успешно проводит операции по кохлеарной имплантации (до 200 пациентов в год) и все инновационные хирургические вмешательства по детской оториноларингологии в РК. Впервые в Южном регионе РК проводятся операции для коррекции деформации позвоночника при сколиозе.\n\nПоступление (требования): Требования касаются госпитализации пациентов и включают перечень необходимых анализов, документов и нозологий для приема в стационар.\n\nСроки приёма: \n\nГранты/скидки/стипендии: \n\nМеждународные партнёры (примеры): Подписан меморандум о сотрудничестве с Пусанским Университетом (Южная Корея). Ведется научный проект с Синьцзянским Медицинским Университетом.\n\n3D-тур: ",
+      "foundedYear": 1954,
+      "ranking": 0,
+      "studentCount": 0,
+      "acceptanceRate": 0,
+      "tuitionRange": {
+        "min": 0,
+        "max": 0
+      },
+      "website": "https://kaznmu.kz",
+      "logoUrl": "/logos/uni--kaznmu-aksay.png",
+      "imageUrl": "https://aksay.kaznmu.edu.kz/wp-content/uploads/2024/08/Aksay-center-300x225.jpg",
+      "type": "state",
+      "programs": [
+        {
+          "id": "uni--kaznmu-aksay-p-0",
+          "name": "Отделение нефрологии и экстракорпоральной детоксикации (диализ)",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian"
+        },
+        {
+          "id": "uni--kaznmu-aksay-p-1",
+          "name": "Отделение педиатрии",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian"
+        },
+        {
+          "id": "uni--kaznmu-aksay-p-2",
+          "name": "Отделение анестезиологии, реанимации и интенсивной терапии",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian"
+        },
+        {
+          "id": "uni--kaznmu-aksay-p-3",
+          "name": "Ортопедическое детское отделение",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian"
+        },
+        {
+          "id": "uni--kaznmu-aksay-p-4",
+          "name": "Хирургическое детское отделение и ЧЛХ",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian"
+        },
+        {
+          "id": "uni--kaznmu-aksay-p-5",
+          "name": "Отделение оториноларингологии",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian"
+        },
+        {
+          "id": "uni--kaznmu-aksay-p-6",
+          "name": "Неврологическое детское отделение",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian"
+        },
+        {
+          "id": "uni--kaznmu-aksay-p-7",
+          "name": "Центр компетенции орфанных заболеваний неврологического профиля",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian"
+        },
+        {
+          "id": "uni--aksay-kaznmu-p-0",
+          "name": "Центр отоларингологии и сурдологии",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian"
+        },
+        {
+          "id": "uni--aksay-kaznmu-p-1",
+          "name": "Центр детской неврологии",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian"
+        },
+        {
+          "id": "uni--aksay-kaznmu-p-2",
+          "name": "Детский центр ортопедии",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian"
+        },
+        {
+          "id": "uni--aksay-kaznmu-p-3",
+          "name": "Центр детской хирургии",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian"
+        },
+        {
+          "id": "uni--aksay-kaznmu-p-4",
+          "name": "Центр педиатрии",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian"
+        },
+        {
+          "id": "uni--aksay-kaznmu-p-5",
+          "name": "Консультативно-диагностический центр",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian"
+        },
+        {
+          "id": "uni--aksay-kaznmu-p-6",
+          "name": "Отделение реанимации и интенсивной терапии",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian"
+        },
+        {
+          "id": "uni--aksay-kaznmu-p-7",
+          "name": "Центр нефрологии и экстракорпоральной детоксикации",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian"
+        },
+        {
+          "id": "uni--aksay-kaznmu-p-8",
+          "name": "Многопрофильное хирургическое отделение для взрослого населения",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian"
+        }
+      ],
+      "admissions": {
+        "deadline": [],
+        "requirements": [
+          "Перечень анализов, необходимых для госпитализации матери или сопровождающего лица по уходу за ребенком.",
+          "Перечень документов, необходимых для госпитализации ребенка в Университетская клиника «Аксай» КазНМУ им. С.Д. Асфендиярова.",
+          "Перечень нозологии для госпитализации.",
+          "Перечень анализов, необходимых для госпитализации матери или сопровождающего лица по уходу за ребенком",
+          "Перечень документов, необходимых для госпитализации ребенка в Университетская клиника «Аксай» КазНМУ им. С.Д. Асфендиярова",
+          "Перечень нозологии для госпитализации"
+        ],
+        "scholarships": []
+      },
+      "international": {
+        "partners": 3,
+        "exchangePrograms": []
+      },
+      "stats": {
+        "employmentRate": 0,
+        "researchOutput": "Low",
+        "studentSatisfaction": 0
+      },
+      "university_name": "Казахский национальный медицинский университет им. С.Д. Асфендиярова",
+      "city": "Алматы",
+      "_scraped_at": "2025-12-05T23:48:06.095024"
+    },
+    {
+      "id": "uni--kurmangazy-conservatory",
+      "name": "Казахская национальная консерватория имени Курмангазы",
+      "shortName": "ҚҰК",
+      "location": "Алматы",
+      "description": "Руководство: Контактная информация приемной Ректора доступна по телефону +7 727 261 76 40. На сайте также доступен «Блог Ректора».\n\nДостижения: Консерватория отмечает 80-летний юбилей. На сайте представлены разделы, посвященные рейтингам, лицензированию и аккредитации, а также научный журнал SARYN.\n\nПоступление (требования): Прием на 2025 год осуществляется по программам бакалавриата, магистратуры и докторантуры. Требования не указаны на главной странице.\n\nСроки приёма: Конкретные сроки приема документов не указаны, но информация для поступающих на 2024-2025 учебный год доступна по соответствующим ссылкам.\n\nГранты/скидки/стипендии: Информация о грантах, скидках или стипендиях на главной странице отсутствует.\n\nМеждународные партнёры (примеры): Информация о международных партнерах и программах обмена на главной странице отсутствует.\n\n3D-тур: ",
+      "foundedYear": 1944,
+      "ranking": 0,
+      "studentCount": 0,
+      "acceptanceRate": 0,
+      "tuitionRange": {
+        "min": 0,
+        "max": 0
+      },
+      "website": "https://conservatoire.edu.kz",
+      "logoUrl": "/logos/kurmangazy-conservatory.png",
+      "imageUrl": "https://conservatoire.edu.kz/upload/iblock/ac2/ac2a271d8a02bfecedc368b888b90b68.jpg",
+      "type": "state",
+      "programs": [
+        {
+          "id": "uni--kurmangazy-conservatory-p-0",
+          "name": "Инструментальное исполнительство",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kurmangazy-conservatory-p-1",
+          "name": "Вокальное искусство",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kurmangazy-conservatory-p-2",
+          "name": "Дирижирование",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kurmangazy-conservatory-p-3",
+          "name": "Традиционное музыкальное искусство",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kurmangazy-conservatory-p-4",
+          "name": "Музыковедение",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kurmangazy-conservatory-p-5",
+          "name": "Композиция",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kurmangazy-conservatory-p-6",
+          "name": "Педагогика и психология",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kurmangazy-conservatory-p-7",
+          "name": "Арт-менеджмент",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--conservatoire-kz-p-0",
+          "name": "Аспапта орындаушылық (Инструментальное исполнительство)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh|Russian"
+        },
+        {
+          "id": "uni--conservatoire-kz-p-1",
+          "name": "Вокалдық өнер (Вокальное искусство)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh|Russian"
+        },
+        {
+          "id": "uni--conservatoire-kz-p-2",
+          "name": "Дирижерлік (Дирижирование)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh|Russian"
+        },
+        {
+          "id": "uni--conservatoire-kz-p-3",
+          "name": "Дәстүрлі музыка өнері (Традиционное музыкальное искусство)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh|Russian"
+        },
+        {
+          "id": "uni--conservatoire-kz-p-4",
+          "name": "Музыкатану (Музыковедение)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh|Russian"
+        },
+        {
+          "id": "uni--conservatoire-kz-p-6",
+          "name": "Педагогика және психология (Педагогика и психология)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh|Russian"
+        }
+      ],
+      "admissions": {
+        "deadline": [
+          "Регистрация для участия в ЕНТ: 10–25 апреля 2025 г.",
+          "Проведение ЕНТ: 10 мая – 10 июля 2025 г.",
+          "Прием документов на творческие экзамены (грант): 20 июня – 6 июля 2025 г.",
+          "Проведение творческих экзаменов (грант): 7–15 июля 2025 г.",
+          "Прием документов на творческие экзамены (платно): 12–19 августа 2025 г.",
+          "Проведение творческих экзаменов (платно): 20–23 августа 2025 г.",
+          "Прием заявлений на повторное ЕНТ (платно): 25 июля – 5 августа 2025 г.",
+          "Проведение ЕНТ: 10–20 августа 2025 г.",
+          "Зачисление в ВУЗ: до 25 августа 2025 г."
+        ],
+        "requirements": [
+          "Информация для поступающих на бакалавриат, магистратуру и докторантуру на 2024-2025 учебный год доступна по ссылкам на странице.",
+          "Сдача ЕНТ (ҰБТ)",
+          "Прохождение творческих экзаменов",
+          "Подача документов в электронном формате через АИС Платонус (https://platonus.conservatoire.kz/)",
+          "Подача документов в бумажном виде в приемную комиссию (Алматы, пр. Абылай хана 86)"
+        ],
+        "scholarships": [
+          "Информация о свободных грантах (БОС ГРАНТТАР)",
+          "Студенческий образовательный кредит (СТУДЕНТТІК БІЛІМ БЕРУ КРЕДІТІ)"
+        ]
+      },
+      "international": {
+        "partners": 0,
+        "exchangePrograms": []
+      },
+      "stats": {
+        "employmentRate": 0,
+        "researchOutput": "Low",
+        "studentSatisfaction": 0
+      },
+      "university_name": "Казахская национальная консерватория им. Курмангазы",
+      "city": "Алматы",
+      "_scraped_at": "2025-12-05T23:49:32.149843"
+    },
+    {
+      "id": "uni--kaznai",
+      "name": "Казахская национальная академия искусств имени Темирбека Жургенова",
+      "shortName": "ҚазҰӨА",
+      "location": "Алматы",
+      "description": "Руководство: Информация о руководстве (имя ректора) на данной странице отсутствует. Есть ссылки на Блог ректора и график личных встреч.\n\nДостижения: Академия позиционируется как «#1 Өнер академиясы Қазақстанда» (Академия искусств №1 в Казахстане).\n\nПоступление (требования): Магистратура является второй ступенью трехступенчатой системы подготовки кадров. Принимаются выпускники вузов с соответствующими дипломами. Документы, выданные зарубежными вузами, подлежат обязательной нострификации.\n\nСроки приёма: Конкретные даты приема документов не указаны, но доступны ссылки на Календарь, а также расписания защиты рефератов, написания эссе и работы апелляционной комиссии.\n\nГранты/скидки/стипендии: Информация о грантах, скидках или стипендиях на данной странице не представлена.\n\nМеждународные партнёры (примеры): В главном меню есть ссылка на «Серіктес университеттер» (Университеты-партнеры), но список партнеров на странице не приведен.\n\n3D-тур: ",
+      "foundedYear": 1955,
+      "ranking": 1,
+      "studentCount": 0,
+      "acceptanceRate": 0,
+      "tuitionRange": {
+        "min": 0,
+        "max": 0
+      },
+      "website": "https://kaznai.kz",
+      "logoUrl": "/logos/uni--kaznai.png",
+      "imageUrl": "https://kaznai.kz/wp-content/uploads/2025/03/cropped-cropped-26-e1673415562172.png",
+      "type": "state",
+      "programs": [
+        {
+          "id": "uni--kaznai-p-0",
+          "name": "Бакалавриат",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznai-p-1",
+          "name": "Магистратура",
+          "degree": "Master",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznai-p-2",
+          "name": "Докторантура (PhD)",
+          "degree": "PhD",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznai-p-3",
+          "name": "Театр өнері (Факультет)",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznai-p-4",
+          "name": "Кино және ТВ (Факультет)",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznai-p-5",
+          "name": "Хореография (Факультет)",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznai-p-0",
+          "name": "Музыкальное искусство",
+          "degree": "Bachelor",
+          "duration": "4 years",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznai-p-1",
+          "name": "Кино и ТВ",
+          "degree": "Bachelor",
+          "duration": "4 years",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznai-p-2",
+          "name": "Живопись, Скульптура и Дизайн",
+          "degree": "Bachelor",
+          "duration": "4 years",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznai-p-3",
+          "name": "Искусствоведение",
+          "degree": "Bachelor",
+          "duration": "4 years",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznai-p-4",
+          "name": "Театральное искусство",
+          "degree": "Bachelor",
+          "duration": "4 years",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznai-p-5",
+          "name": "Хореография",
+          "degree": "Bachelor",
+          "duration": "4 years",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kaznai-p-6",
+          "name": "Арт-менеджмент",
+          "degree": "Bachelor",
+          "duration": "4 years",
+          "tuition": 0,
+          "language": "Kazakh"
+        }
+      ],
+      "admissions": {
+        "deadline": [],
+        "requirements": [
+          "Сдача экзаменов и участие в творческих конкурсах.",
+          "Требуется сдача творческих экзаменов.",
+          "Срок обучения составляет 4 года после средней школы, 3 года по сокращенной программе после колледжа, и до 5 лет по некоторым творческим направлениям.",
+          "Принимаются выпускники вузов с соответствующими дипломами.",
+          "Документы иностранных вузов подлежат обязательной нострификации.",
+          "Требуется предоставление реферата по теме будущей диссертации (см. 'Рефератқа қойылатын талаптар').",
+          "Проводятся вступительные экзамены (эссе, творческий экзамен) согласно расписанию."
+        ],
+        "scholarships": []
+      },
+      "international": {
+        "partners": 0,
+        "exchangePrograms": []
+      },
+      "stats": {
+        "employmentRate": 0,
+        "researchOutput": "Low",
+        "studentSatisfaction": 0
+      },
+      "university_name": "Казахская национальная академия искусств им. Т.К. Жургенова",
+      "city": "Алматы",
+      "_scraped_at": "2025-12-05T23:50:56.260647"
+    },
+    {
+      "id": "uni--kazmkpu",
+      "name": "Қазақ ұлттық қыздар педагогикалық университеті",
+      "shortName": "QyzPU",
+      "location": "",
+      "description": "Руководство: Информация о корпоративном управлении, включая Совет директоров, Басқарма (Правление) и Топ-менеджмент, доступна на сайте. Также имеется Блог Ректора.\n\nДостижения: Университет предоставляет информацию о своей миссии, системе менеджмента качества, аккредитации и рейтингах. Доступны аудиторские отчеты и отчеты по самооценке колледжа.\n\nПоступление (требования): Прием осуществляется на программы Колледжа, Бакалавриата, Магистратуры и Докторантуры. Отдельный раздел посвящен поступлению иностранных граждан.\n\nСроки приёма: На сайте опубликованы объявления о начале отбора студентов на программы академической мобильности в университеты Турции и Международную зимнюю школу в Корее (декабрь 2025).\n\nГранты/скидки/стипендии: Информация о грантах и стипендиях не найдена.\n\nМеждународные партнёры (примеры): Среди зарубежных партнеров упомянуты Baskent University, MVSU и Sookmyung Women's University. Университет активно развивает академическую мобильность и программы двойного диплома.\n\n3D-тур: ",
+      "foundedYear": 1944,
+      "ranking": 0,
+      "studentCount": 0,
+      "acceptanceRate": 0,
+      "tuitionRange": {
+        "min": 0,
+        "max": 0
+      },
+      "website": "https://kazmkpu.kz",
+      "logoUrl": "/logos/uni--kazmkpu.png",
+      "imageUrl": "",
+      "type": "",
+      "programs": [
+        {
+          "id": "uni--kazmkpu-p-0",
+          "name": "Арнайы педагогика (Специальная педагогика)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazmkpu-p-1",
+          "name": "Дене шынықтыру және спорт (Физическая культура и спорт)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazmkpu-p-2",
+          "name": "Психология",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazmkpu-p-3",
+          "name": "Бастауыш оқытудың педагогикасы мен әдістемесі (Педагогика и методика начального обучения)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazmkpu-p-4",
+          "name": "Мектепке дейінгі білім беру (Дошкольное образование)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazmkpu-p-5",
+          "name": "Қазақ тіл білімінің теориясы мен әдістемесі (Теория и методика казахского языкознания)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazmkpu-p-6",
+          "name": "Қазақ әдебиеті (Казахская литература)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazmkpu-p-7",
+          "name": "Орыс тілі мен әдебиеті (Русский язык и литература)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian"
+        },
+        {
+          "id": "uni--kazmkpu-p-8",
+          "name": "Физика",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazmkpu-p-9",
+          "name": "Математика",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazmkpu-p-10",
+          "name": "Информатика",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazmkpu-p-11",
+          "name": "Химия",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazmkpu-p-12",
+          "name": "География",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazmkpu-p-13",
+          "name": "Тарих (История)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazmkpu-p-14",
+          "name": "Музыка",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazakh-national-women-pedagogical-university-p-0",
+          "name": "Художественное образование",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kazakh-national-women-pedagogical-university-p-1",
+          "name": "Педагогика және психология",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kazakh-national-women-pedagogical-university-p-2",
+          "name": "Арнайы педагогика",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kazakh-national-women-pedagogical-university-p-3",
+          "name": "Дене шынықтыру және спорт",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kazakh-national-women-pedagogical-university-p-4",
+          "name": "Қазақ тіл білімінің теориясы мен әдістемесі",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kazakh-national-women-pedagogical-university-p-5",
+          "name": "Қазақ әдебиеті",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kazakh-national-women-pedagogical-university-p-6",
+          "name": "Орыс тілі мен әдебиеті",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kazakh-national-women-pedagogical-university-p-9",
+          "name": "Биология",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kazakh-national-women-pedagogical-university-p-10",
+          "name": "Тарих",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kazakh-national-women-pedagogical-university-p-11",
+          "name": "Кәсіптік білім",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kazakh-national-women-pedagogical-university-p-12",
+          "name": "Хореография және Арт-менеджмент",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kazakh-national-women-s-teacher-training-university-p-6",
+          "name": "Шетел тілдерін оқыту әдістемесі (Методика преподавания иностранных языков)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kazakh-national-women-s-teacher-training-university-p-13",
+          "name": "Хореография және Арт-менеджмент (Хореография и Арт-менеджмент)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        }
+      ],
+      "admissions": {
+        "deadline": [
+          "Отбор студентов на академическую мобильность в университеты Турции (04 желтоқсан, 2025)",
+          "Отбор на Международную зимнюю школу в Корее (03 желтоқсан, 2025)"
+        ],
+        "requirements": [
+          "Аттестат (11 классов) или диплом (колледж) с приложениями (оригинал + копия).",
+          "Сертификат ЕНТ: проходной балл 75 или выше (для выпускников школ), 35 или выше (для выпускников колледжей).",
+          "Медицинская справка формы №075 и флюорография (оригинал + копия).",
+          "Паспорт здоровья или карта прививок формы 063 (2 копии).",
+          "2 фотографии 3х4.",
+          "Удостоверение личности/свидетельство о рождении (оригинал + 2 копии) и удостоверение личности родителя (если абитуриент не достиг 18 лет).",
+          "Выписка из ведомости.",
+          "Результат педагогического специального экзамена (для образовательных программ в области «Педагогические науки»)."
+        ],
+        "scholarships": []
+      },
+      "international": {
+        "partners": 3,
+        "exchangePrograms": [
+          "Академиялық ұтқырлық (Академическая мобильность)",
+          "Қос дипломды білім беру бағдарламасы (Программа двудипломного образования)",
+          "Академиялық ұтқырлық (Academic mobility)",
+          "Қос дипломды білім беру бағдарламасы (Double diploma program)"
+        ]
+      },
+      "stats": {
+        "employmentRate": 0,
+        "researchOutput": "Low",
+        "studentSatisfaction": 0
+      },
+      "university_name": "Казахский национальный женский педагогический университет",
+      "city": "Алматы",
+      "_scraped_at": "2025-12-05T23:52:22.899742"
+    },
+    {
+      "id": "uni--kbtu",
+      "name": "Казахско-Британский Технический Университет",
+      "shortName": "ҚБТУ (KBTU)",
+      "location": "Алматы",
+      "description": "Руководство: Информация о руководстве и администрации доступна по соответствующим ссылкам в меню, включая раздел \"Ректор алғысөзі\" (Слово ректора).\n\nДостижения: На странице упоминаются ссылки на разделы \"Аккредитациялар\" и \"Халықаралық аффилиациялар\", подтверждающие международное сотрудничество.\n\nПоступление (требования): Для подачи заявления необходимо зарегистрироваться на портале admissions.kbtu.kz/apply, заполнить форму и загрузить необходимые документы, а также сдать тест на знание английского языка (IELTS, TOEFL, DUOLINGO, KELET).\n\nСроки приёма: Для внутренних грантов прием документов проходит с 1 марта по 1 мая, собеседования — с 2 мая по 31 мая. Для Стипендиальной программы Казахстана сроки подачи документов: 30 марта – 30 мая 2025 года.\n\nГранты/скидки/стипендии: Доступна Стипендиальная программа для обучения в вузах Казахстана, покрывающая обучение и предоставляющая ежемесячную стипендию. Также предоставляются Внутренние гранты и скидки для граждан стран СНГ, ЕАЭС, Монголии, Пакистана, Индии, Турции, Индонезии и этнических казахов.\n\nМеждународные партнёры (примеры): Информация о партнерах не представлена на данной странице.\n\n3D-тур: ",
+      "foundedYear": 2001,
+      "ranking": 0,
+      "studentCount": 7746,
+      "acceptanceRate": 0,
+      "tuitionRange": {
+        "min": 0,
+        "max": 0
+      },
+      "website": "https://kbtu.kz",
+      "logoUrl": "/logos/uni--kbtu.png",
+      "imageUrl": "https://kbtu.edu.kz/images/logo_blue.png",
+      "type": "",
+      "programs": [
+        {
+          "id": "uni--kbtu-p-0",
+          "name": "Школа Бизнеса",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kbtu-p-1",
+          "name": "Школа Информационных Технологий и Инженерии",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kbtu-p-2",
+          "name": "Школа Энергетики и Нефтегазовой Индустрии",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kbtu-p-3",
+          "name": "Школа Естественных и Социальных Наук",
+          "degree": "Master",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kbtu-p-4",
+          "name": "Школа Геологии",
+          "degree": "Master",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kbtu-p-5",
+          "name": "Школа Прикладной Математики",
+          "degree": "PhD",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kbtu-p-6",
+          "name": "Школа Материаловедения и Зеленых Технологий",
+          "degree": "PhD",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kbtu-p-0",
+          "name": "Бизнес",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kbtu-p-1",
+          "name": "Информационные технологии и инженерия",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kbtu-p-2",
+          "name": "Естественные и социальные науки",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kbtu-p-3",
+          "name": "Энергетика и нефтегазовая индустрия",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kbtu-p-4",
+          "name": "Геология",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kbtu-p-5",
+          "name": "Прикладная математика",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kbtu-p-6",
+          "name": "Материаловедение и зеленые технологии",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kbtu-p-7",
+          "name": "Корпоративное образование",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        }
+      ],
+      "admissions": {
+        "deadline": [
+          "Внутренние гранты/скидки: 1 марта – 1 мая (подача документов)",
+          "Внутренние гранты/скидки: 2 мая – 31 мая (собеседование)",
+          "Стипендиальная программа Казахстана: 30 марта – 30 мая 2025 г."
+        ],
+        "requirements": [
+          "Бакалавриат: Паспорт, Документ об образовании (аттестат) с приложением, Сертификат IELTS/TOEFL/DUOLINGO/KELET (если есть), Мотивационное письмо (до 600 слов, на английском).",
+          "Магистратура: Паспорт, Диплом о высшем образовании, Сертификат IELTS/TOEFL (если есть), Мотивационное письмо (до 600 слов, на английском), Два рекомендательных письма (минимум одно академическое).",
+          "Докторантура: Паспорт, Диплом о высшем образовании, Сертификат IELTS/TOEFL (если есть), Мотивационное письмо (до 600 слов, на английском), Два рекомендательных письма (минимум одно академическое), Резюме / Curriculum Vitae, Зерттеу ұсынысы (Research proposal)."
+        ],
+        "scholarships": [
+          "Стипендиальная программа для обучения в вузах Казахстана (покрывает обучение, предоставляет ежемесячную стипендию).",
+          "Внутренние Гранты и Скидки (для граждан СНГ, Грузии, Украины, Монголии, Пакистана, Индии, Турции и Индонезии, а также этнических казахов за рубежом)."
+        ]
+      },
+      "international": {
+        "partners": 78,
+        "exchangePrograms": [
+          "Академическая мобильность (Южная Корея)"
+        ]
+      },
+      "stats": {
+        "employmentRate": 98,
+        "researchOutput": "Low",
+        "studentSatisfaction": 0
+      },
+      "university_name": "Казахстанско-Британский технический университет",
+      "city": "Алматы",
+      "_scraped_at": "2025-12-05T23:54:31.823976"
+    },
+    {
+      "id": "uni--kimep",
+      "name": "КИМЭП Университеті",
+      "shortName": "КИМЭП",
+      "location": "Алматы",
+      "description": "Руководство: КИМЭП возглавляется Президентом. Информация о руководстве и управлении доступна по ссылке: [Басқару](https://www.kimep.kz/about/kz/management-and-governance/).\n\nДостижения: Университет предоставляет информацию о своих рейтингах и аккредитации. Подробные сведения доступны в разделе [Рейтингтері және аккредитация](https://www.kimep.kz/about/kz/kimep-rankings-accreditation/).\n\nПоступление (требования): Общая информация о поступлении и требованиях доступна на странице [Университетке түсу](https://www.kimep.kz/prospective-students/kz/admission/). Доступна функция онлайн-подачи заявления.\n\nСроки приёма: Конкретные сроки приема документов не указаны на главной странице, но академический календарь доступен для ознакомления: [Академиялық күнтізбе](https://www.kimep.kz/current-students/kz/calendar/).\n\nГранты/скидки/стипендии: Университет предлагает финансовую поддержку и гранты. Информация о стипендиях для программ по психологии и других видах помощи доступна по ссылке: [Қаржылық қолдау, гранттар](https://www.kimep.kz/prospective-students/kz/financial-aid/).\n\nМеждународные партнёры (примеры): Университет активно развивает академическую мобильность. Информация о программах обмена доступна в разделе [Академиялық мобильділік](https://www.kimep.kz/diam/kz/).\n\n3D-тур: [https://www.kimep.kz/kz/3d-tour/#pano753/179.7/30.6/74.4]",
+      "foundedYear": 0,
+      "ranking": 0,
+      "studentCount": 0,
+      "acceptanceRate": 0,
+      "tuitionRange": {
+        "min": 0,
+        "max": 0
+      },
+      "website": "https://kimep.kz",
+      "logoUrl": "/logos/kimep.png",
+      "imageUrl": "",
+      "type": "private",
+      "programs": [
+        {
+          "id": "uni--kimep-p-0",
+          "name": "Bachelor of Finance Program",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "English"
+        },
+        {
+          "id": "uni--kimep-p-1",
+          "name": "Executive MBA",
+          "degree": "Master",
+          "duration": "",
+          "tuition": 0,
+          "language": "English"
+        },
+        {
+          "id": "uni--kimep-p-2",
+          "name": "MBA",
+          "degree": "Master",
+          "duration": "",
+          "tuition": 0,
+          "language": "English"
+        },
+        {
+          "id": "uni--kimep-p-3",
+          "name": "Master’s degree in Psychology",
+          "degree": "Master",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kimep-p-4",
+          "name": "Bachelor’s degree in Psychology",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kimep-p-0",
+          "name": "Бэнг атындағы бизнес факультеті",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kimep-p-1",
+          "name": "Әлеуметтік ғылымдар факультеті",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kimep-p-2",
+          "name": "Білім беру және гуманитарлық ғылымдар факультеті",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kimep-p-3",
+          "name": "Құқық мектебі",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kimep-p-4",
+          "name": "Факультет компьютерных наук и математики",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian"
+        },
+        {
+          "id": "uni--kimep-p-5",
+          "name": "Басқару кадрларына арналған білім орталығы",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--kimep-p-0",
+          "name": "Қаржы бакалавры (BFIN)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kimep-p-1",
+          "name": "Корпоративтік қаржы және инвестицияларды басқару (Мамандық BFIN)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        },
+        {
+          "id": "uni--kimep-p-2",
+          "name": "Қаржылық институттар және тәуекел менеджменті (Мамандық BFIN)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": ""
+        }
+      ],
+      "admissions": {
+        "deadline": [],
+        "requirements": [
+          "Требования к поступлению доступны по ссылке 'Университетке түсу'."
+        ],
+        "scholarships": [
+          "Стипендии для магистерских и бакалаврских программ по психологии",
+          "Финансовая поддержка, гранты",
+          "Информация о финансовой поддержке, грантах и стипендиях доступна по ссылке 'Қаржылық қолдау, гранттар'."
+        ]
+      },
+      "international": {
+        "partners": 0,
+        "exchangePrograms": [
+          "MOBILITY",
+          "Академиялық мобильділік"
+        ]
+      },
+      "stats": {
+        "employmentRate": 0,
+        "researchOutput": "Low",
+        "studentSatisfaction": 0
+      },
+      "university_name": "KIMEP University",
+      "city": "Алматы",
+      "_scraped_at": "2025-12-05T23:56:15.034723"
+    },
+    {
+      "id": "uni--ahmet-yasawi",
+      "name": "Халықаралық қазақ-түрік университеті имени Қожа Ахмет Ясауи",
+      "shortName": "AYU",
+      "location": "Туркестан",
+      "description": "Руководство: Управление университетом осуществляется Ректором, Представителем Ректора, Сенатом и Советом управления. Ссылки на страницы руководства доступны в разделе «Әкімшілік».\n\nДостижения: Университет является первым международным высшим учебным заведением в Казахстане, основанным на межправительственном соглашении между Казахстаном и Турцией в 1991 году.\n\nПоступление (требования): Конкретные требования для поступления на главной странице не указаны. Подробная информация для абитуриентов доступна на портале [Талапкер](https://talapker.ayu.edu.kz/).\n\nСроки приёма: Сроки приёма документов на главной странице не указаны.\n\nГранты/скидки/стипендии: Университет предоставляет студентам возможность получения стипендий от различных организаций. Доступна страница «Шәкіртақы алу мүмкіндігі».\n\nМеждународные партнёры (примеры): Университет имеет международный статус и активно реализует программы академической мобильности. Уровень трудоустройства выпускников составляет 80%.\n\n3D-тур: ",
+      "foundedYear": 1991,
+      "ranking": 0,
+      "studentCount": 0,
+      "acceptanceRate": 0,
+      "tuitionRange": {
+        "min": 0,
+        "max": 0
+      },
+      "website": "https://ayu.edu.kz",
+      "logoUrl": "/logos/uni--ahmet-yasawi.png",
+      "imageUrl": "",
+      "type": "state",
+      "programs": [
+        {
+          "id": "uni--ahmet-yasawi-p-0",
+          "name": "Стоматология факультеті",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--ahmet-yasawi-p-1",
+          "name": "Жаратылыстану ғылымдары факультеті",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--ahmet-yasawi-p-2",
+          "name": "Филология факультеті",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--ahmet-yasawi-p-3",
+          "name": "Экономика және басқару факультеті",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--ahmet-yasawi-p-4",
+          "name": "Теология факультеті",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--ahmet-yasawi-p-5",
+          "name": "Білім беру және гуманитарлық зерттеулер факультеті",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--ahmet-yasawi-p-6",
+          "name": "Инженерия факультеті",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--ahmet-yasawi-p-7",
+          "name": "Спорт факультеті",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--ahmet-yasawi-p-8",
+          "name": "Медицина факультеті",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--ahmet-yasawi-p-9",
+          "name": "Заң факультеті",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "uni--ahmet-yasawi-p-10",
+          "name": "Өнер, медиа және дизайн факультеті",
+          "degree": "Other",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "{{ID_HINT}}-p-6",
+          "name": "Жоғары оқу орнынан кейінгі медициналық білім беру факультеті",
+          "degree": "Master",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        },
+        {
+          "id": "{{ID_HINT}}-p-10",
+          "name": "Дайындық орталығы",
+          "degree": "Foundation",
+          "duration": "",
+          "tuition": 0,
+          "language": "Kazakh"
+        }
+      ],
+      "admissions": {
+        "deadline": [],
+        "requirements": [],
+        "scholarships": [
+          "Университет предлагает студентам возможность получения стипендий от различных организаций."
+        ]
+      },
+      "international": {
+        "partners": 0,
+        "exchangePrograms": [
+          "Академиялық ұтқырлық бағдарламасы"
+        ]
+      },
+      "stats": {
+        "employmentRate": 80,
+        "researchOutput": "Medium",
+        "studentSatisfaction": 0
+      },
+      "university_name": "Международный казахско-турецкий университет им. Х.А. Ясави",
+      "city": "Туркестан",
+      "_scraped_at": "2025-12-05T23:57:57.399655"
+    },
+    {
+      "id": "uni--dku",
+      "name": "Казахстанско-Немецкий Университет",
+      "shortName": "DKU",
+      "location": "Алматы",
+      "description": "Руководство: Информация о руководстве доступна в разделе «Администрация», также есть возможность написать ректору напрямую.\n\nДостижения: DKU входит в ТОП-5 ВУЗов Казахстана согласно рейтингу НПП “АТАМЕКЕН”. Образовательные программы DKU заняли лидирующие места в рейтинге на 2025 год.\n\nПоступление (требования): Условия поступления для абитуриентов, включая иностранных, доступны на сайте. Предусмотрена возможность онлайн регистрации.\n\nСроки приёма: Конкретные сроки приёма документов на бакалавриат и магистратуру на главной странице не указаны.\n\nГранты/скидки/стипендии: Доступны социальные стипендии от немецкой компании «Thomas Kurze GmbH», стипендии Генерального консульства Германии, а также стипендии DAAD и Erasmus+.\n\nМеждународные партнёры (примеры): Университет имеет 10 ВУЗов-партнеров в Германии и позиционирует себя как мост в Германию и ЕС.\n\n3D-тур: https://dku.kz/ru/virtualnyj-tur",
+      "foundedYear": 0,
+      "ranking": 5,
+      "studentCount": 0,
+      "acceptanceRate": 0,
+      "tuitionRange": {
+        "min": 0,
+        "max": 0
+      },
+      "website": "https://dku.kz",
+      "logoUrl": "/logos/uni--dku.png",
+      "imageUrl": "https://dku.kz/storage/app/media/banner/11black-3.jpg",
+      "type": "",
+      "programs": [],
+      "admissions": {
+        "deadline": [],
+        "requirements": [
+          "Условия поступления доступны на сайте",
+          "Онлайн регистрация для абитуриентов"
+        ],
+        "scholarships": [
+          "Социальные стипендии от немецкой компании «Thomas Kurze GmbH»",
+          "Стипендии Генерального консульства Германии",
+          "Стипендии DAAD",
+          "Стипендия Erasmus+"
+        ]
+      },
+      "international": {
+        "partners": 10,
+        "exchangePrograms": [
+          "Программа \"Двойной диплом\"",
+          "Академическая мобильность",
+          "ERASMUS"
+        ]
+      },
+      "stats": {
+        "employmentRate": 0,
+        "researchOutput": "Medium",
+        "studentSatisfaction": 0
+      },
+      "university_name": "Казахстанско-Немецкий университет",
+      "city": "Алматы",
+      "_scraped_at": "2025-12-05T23:58:58.486405"
+    },
+    {
+      "id": "uni--krmu",
+      "name": "Казахстанско-Российский Медицинский Университет",
+      "shortName": "КРМУ",
+      "location": "Алматы",
+      "description": "Об университете: Казахстанско-Российский Медицинский Университет (КРМУ) основан в 1992 году. Университет предлагает программы бакалавриата, магистратуры и докторантуры в области медицины и здравоохранения.\n\nРуководство: На сайте доступен Блог ректора Джайнакбаева Нурлана Темирбековича.\n\nДостижения: Информация о конкретных достижениях и наградах не найдена.\n\nПоступление (требования): Общие требования для поступления в бакалавриат, магистратуру, резидентуру и докторантуру доступны в разделе «Абитуриенту».\n\nСроки приёма: Информация о работе Приемной комиссии 2025 года доступна на сайте. Конкурсы на вакантные образовательные гранты объявлялись в июле 2024 года и январе 2025 года.\n\nГранты/скидки/стипендии: Регулярно объявляется конкурс на вакантные образовательные гранты, а также публикуются списки претендентов.\n\nМеждународные партнёры (примеры): Информация о международном сотрудничестве доступна в соответствующем разделе.\n\n3D-тур: ",
+      "foundedYear": 1992,
+      "ranking": 0,
+      "studentCount": 0,
+      "acceptanceRate": 0,
+      "tuitionRange": {
+        "min": 0,
+        "max": 0
+      },
+      "website": "https://krmu.edu.kz",
+      "logoUrl": "/logos/krmu.png",
+      "imageUrl": "https://new.krmu.edu.kz/assets/images/banner_4.jpg",
+      "type": "",
+      "programs": [
+        {
+          "id": "uni--krmu-p-1",
+          "name": "Фармация (6B10113)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian|Kazakh"
+        },
+        {
+          "id": "uni--krmu-p-2",
+          "name": "Медицина (6B10113)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian|Kazakh"
+        },
+        {
+          "id": "uni--krmu-p-3",
+          "name": "Медико-профилактическое дело (6B10115)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian|Kazakh"
+        },
+        {
+          "id": "uni--krmu-p-4",
+          "name": "Общественное здоровье (6B10110)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian|Kazakh"
+        },
+        {
+          "id": "uni--krmu-p-5",
+          "name": "Сестринское дело (6В10101)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian|Kazakh"
+        },
+        {
+          "id": "uni--krmu-p-6",
+          "name": "Стоматология (6B10114)",
+          "degree": "Bachelor",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian|Kazakh"
+        },
+        {
+          "id": "uni--krmu-p-7",
+          "name": "Фармация (Профильное направление)",
+          "degree": "Master",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian|Kazakh"
+        },
+        {
+          "id": "uni--krmu-p-8",
+          "name": "Медицина",
+          "degree": "Master",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian|Kazakh"
+        },
+        {
+          "id": "uni--krmu-p-9",
+          "name": "Менеджмент в здравоохранении",
+          "degree": "Master",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian|Kazakh"
+        },
+        {
+          "id": "uni--krmu-p-10",
+          "name": "Общественное здравоохранение",
+          "degree": "PhD",
+          "duration": "",
+          "tuition": 0,
+          "language": "Russian|Kazakh"
+        }
+      ],
+      "admissions": {
+        "deadline": [
+          "Информация по приемной комиссии 2025г.",
+          "Конкурс на вакантные образовательные гранты (июль 2024, январь 2025)"
+        ],
+        "requirements": [
+          "Как поступить в КРМУ (Бакалавриат, Магистратура, Резидентура, Докторантура)"
+        ],
+        "scholarships": [
+          "Конкурс на вакантные образовательные гранты"
+        ]
+      },
+      "international": {
+        "partners": 0,
+        "exchangePrograms": []
+      },
+      "stats": {
+        "employmentRate": 0,
+        "researchOutput": "Medium",
+        "studentSatisfaction": 0
+      },
+      "university_name": "Казахско-Российский медицинский университет",
+      "city": "Алматы",
+      "_scraped_at": "2025-12-06T00:00:57.178402"
     }
   ]
 }

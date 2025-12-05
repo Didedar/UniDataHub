@@ -16,10 +16,8 @@ export function StickyHeader() {
     })
 
     const navLinks = [
-        { name: "About", href: "#about" },
-        { name: "Programs", href: "#programs" },
-        { name: "Admissions", href: "#admissions" },
-        { name: "3D Tour", href: "#tour" },
+        { name: "Home", href: "/" },
+        { name: "Explore", href: "/catalog" },
         { name: "Compare", href: "/compare" },
     ]
 
@@ -51,12 +49,6 @@ export function StickyHeader() {
                             {link.name}
                         </Link>
                     ))}
-                    <Link
-                        href="/apply"
-                        className="px-4 py-2 bg-primary text-primary-foreground rounded-full text-sm font-medium hover:bg-primary/90 transition-colors"
-                    >
-                        Apply Now
-                    </Link>
                 </nav>
 
                 {/* Mobile Menu Toggle */}

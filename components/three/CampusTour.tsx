@@ -1,53 +1,147 @@
 "use client"
 
-import { Canvas, useFrame } from "@react-three/fiber"
-import { OrbitControls, Environment, ContactShadows } from "@react-three/drei"
-import { useRef, useState } from "react"
-import * as THREE from "three"
+import { University } from "@/data/universities"
+import { Video, ExternalLink, MapPin, Info } from "lucide-react"
+import { Button } from "@/components/ui/Button"
 
-function Model(props: any) {
-    const meshRef = useRef<THREE.Mesh>(null!)
-    const [hovered, setHover] = useState(false)
-    const [active, setActive] = useState(false)
-
-    useFrame((state, delta) => {
-        meshRef.current.rotation.y += delta * 0.5
-    })
-
-    return (
-        <mesh
-            {...props}
-            ref={meshRef}
-            scale={active ? 1.5 : 1}
-            onClick={() => setActive(!active)}
-            onPointerOver={() => setHover(true)}
-            onPointerOut={() => setHover(false)}
-        >
-            <boxGeometry args={[2, 2, 2]} />
-            <meshStandardMaterial color={hovered ? "hotpink" : "orange"} />
-        </mesh>
-    )
+interface CampusTourProps {
+    university?: University
 }
 
-export function CampusTour() {
-    return (
-        <div className="w-full h-[500px] bg-slate-900 rounded-xl overflow-hidden relative">
-            <div className="absolute top-4 left-4 z-10 bg-black/50 text-white p-2 rounded backdrop-blur-sm">
-                <p className="text-sm font-medium">Interactive 3D Campus View</p>
-                <p className="text-xs opacity-70">Drag to rotate, scroll to zoom</p>
+export function CampusTour({ university }: CampusTourProps) {
+    // Проверка наличия информации о туре из разных источников данных
+    const hasTourUrl = university?.website && (
+        !!university.virtualTourUrl ||
+        university.description?.includes('виртуальный тур') ||
+        university.description?.includes('3D') ||
+        university.description?.includes('tour')
+    )
+
+    // Извлечение URL тура из description если есть
+    const extractTourUrl = () => {
+        if (university?.virtualTourUrl) return university.virtualTourUrl
+        if (!university?.description) return null
+
+        // Ищем URL в описании
+        const urlMatch = university.description.match(/https?:\/\/[^\s)»]+/g)
+        if (urlMatch && (
+            university.description.includes('виртуальный тур') ||
+            university.description.includes('3D')
+        )) {
+            return urlMatch.find(url =>
+                url.includes('tour') ||
+                url.includes('360') ||
+                url.includes('virtual')
+            )
+        }
+        return null
+    }
+
+    const tourUrl = extractTourUrl()
+
+    // Если нет информации о туре
+    if (!hasTourUrl && !tourUrl) {
+        return (
+            <div className="w-full h-[400px] bg-gradient-to-br from-slate-100 to-slate-200 rounded-2xl overflow-hidden flex items-center justify-center border border-slate-300">
+                <div className="text-center p-8 max-w-md">
+                    <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-slate-300 flex items-center justify-center">
+                        <Video className="w-10 h-10 text-slate-500" />
+                    </div>
+                    <h3 className="text-xl font-bold text-slate-700 mb-2">
+                        Виртуальный тур недоступен
+                    </h3>
+                    <p className="text-slate-600 mb-4">
+                        К сожалению, для этого университета пока нет виртуального 3D-тура
+                    </p>
+                    {university?.website && (
+                        <Button
+                            asChild
+                            variant="outline"
+                            className="border-slate-400 text-slate-700 hover:bg-slate-300"
+                        >
+                            <a
+                                href={university.website}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-2"
+                            >
+                                <ExternalLink className="w-4 h-4" />
+                                Посетить официальный сайт
+                            </a>
+                        </Button>
+                    )}
+                </div>
             </div>
+        )
+    }
 
-            <Canvas camera={{ position: [0, 0, 5], fov: 50 }}>
-                <ambientLight intensity={0.5} />
-                <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
-                <pointLight position={[-10, -10, -10]} />
+    // Если есть URL тура
+    if (tourUrl) {
+        return (
+            <div className="space-y-4">
+                <div className="flex items-center justify-between p-4 bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl border border-blue-200">
+                    <div className="flex items-center gap-3">
+                        <div className="w-12 h-12 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center">
+                            <Video className="w-6 h-6 text-white" />
+                        </div>
+                        <div>
+                            <h4 className="font-semibold text-slate-900">Виртуальный тур доступен</h4>
+                            <p className="text-sm text-slate-600">Исследуйте кампус онлайн</p>
+                        </div>
+                    </div>
+                    <Button asChild className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
+                        <a href={tourUrl} target="_blank" rel="noopener noreferrer">
+                            <ExternalLink className="w-4 h-4 mr-2" />
+                            Открыть тур
+                        </a>
+                    </Button>
+                </div>
 
-                <Model position={[0, 0, 0]} />
+                <div className="w-full h-[500px] bg-slate-100 rounded-2xl overflow-hidden border border-slate-300">
+                    <iframe
+                        src={tourUrl}
+                        className="w-full h-full"
+                        allow="fullscreen; accelerometer; gyroscope"
+                        title="Virtual Campus Tour"
+                    />
+                </div>
+            </div>
+        )
+    }
 
-                <ContactShadows resolution={1024} scale={10} blur={1} opacity={0.5} far={10} color="#000000" />
-                <OrbitControls enableZoom={true} />
-                <Environment preset="city" />
-            </Canvas>
+    // Если информация есть, но без прямого URL
+    return (
+        <div className="w-full h-[400px] bg-gradient-to-br from-blue-50 to-indigo-100 rounded-2xl overflow-hidden flex items-center justify-center border border-blue-200">
+            <div className="text-center p-8 max-w-md">
+                <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 flex items-center justify-center shadow-lg">
+                    <MapPin className="w-10 h-10 text-white" />
+                </div>
+                <h3 className="text-xl font-bold text-slate-900 mb-2">
+                    Виртуальный тур
+                </h3>
+                <div className="flex items-start gap-2 text-sm text-slate-700 mb-4 bg-white/50 p-3 rounded-lg">
+                    <Info className="w-4 h-4 mt-0.5 text-blue-600 shrink-0" />
+                    <p className="text-left">
+                        Университет предоставляет виртуальный тур. Для получения подробной информации посетите официальный сайт.
+                    </p>
+                </div>
+                {university?.website && (
+                    <Button
+                        asChild
+                        className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700"
+                    >
+                        <a
+                            href={university.website}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2"
+                        >
+                            <ExternalLink className="w-4 h-4" />
+                            Перейти на сайт
+                        </a>
+                    </Button>
+                )}
+            </div>
         </div>
     )
 }

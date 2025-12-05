@@ -423,7 +423,7 @@ export const universities: University[] = [
         },
         "website": "https://satbayev.university",
         "logoUrl": "/logos/uni--653985701906844209.png",
-        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1000&auto=format&fit=crop",
+        "imageUrl": "https://satbayev.university/files/img/university/logo-nav-blue.svg",
         "type": "national",
         "programs": [
             {
@@ -780,7 +780,7 @@ export const universities: University[] = [
         },
         "website": "https://kazatu.edu.kz",
         "logoUrl": "/logos/uni-6181242416765302281.png",
-        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1000&auto=format&fit=crop",
+        "imageUrl": "https://kazatu.edu.kz/img/slides/e086960d6a7d900c225ee90df199f27d.png",
         "type": "state",
         "programs": [
             {
@@ -1060,7 +1060,7 @@ export const universities: University[] = [
         },
         "website": "https://conservatoire.edu.kz",
         "logoUrl": "/logos/uni--5610011387983282598.png",
-        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1000&auto=format&fit=crop",
+        "imageUrl": "https://conservatoire.edu.kz/upload/iblock/ac2/ac2a271d8a02bfecedc368b888b90b68.jpg",
         "type": "national",
         "programs": [
             {
@@ -1219,7 +1219,7 @@ export const universities: University[] = [
         },
         "website": "https://kaznai.kz",
         "logoUrl": "/logos/uni--1769193353410854537.png",
-        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1000&auto=format&fit=crop",
+        "imageUrl": "https://kaznai.kz/wp-content/uploads/2025/03/cropped-cropped-26-e1673415562172.png",
         "type": "national",
         "programs": [
             {
@@ -1431,7 +1431,7 @@ export const universities: University[] = [
         },
         "website": "https://kbtu.kz",
         "logoUrl": "/logos/uni-2548293348053752146.png",
-        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1000&auto=format&fit=crop",
+        "imageUrl": "https://kbtu.edu.kz/images/logo_blue.png",
         "type": "private",
         "programs": [
             {
@@ -1854,7 +1854,7 @@ export const universities: University[] = [
         },
         "website": "https://dku.kz",
         "logoUrl": "/logos/dku.png",
-        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1000&auto=format&fit=crop",
+        "imageUrl": "https://dku.kz/storage/app/media/banner/11black-3.jpg",
         "type": "private",
         "programs": [
             {
@@ -4025,7 +4025,7 @@ export const universities: University[] = [
         },
         "website": "https://kaznmu.kz",
         "logoUrl": "/logos/uni-ddb93fd763bd9910.png",
-        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1000&auto=format&fit=crop",
+        "imageUrl": "https://aksay.kaznmu.edu.kz/wp-content/uploads/2024/08/Aksay-center-300x225.jpg",
         "type": "national",
         "programs": [],
         "admissions": {
@@ -4059,7 +4059,7 @@ export const universities: University[] = [
         },
         "website": "https://krmu.edu.kz",
         "logoUrl": "/logos/uni-e9d5e70029139651.png",
-        "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1000&auto=format&fit=crop",
+        "imageUrl": "https://new.krmu.edu.kz/assets/images/banner_4.jpg",
         "type": "private",
         "programs": [],
         "admissions": {

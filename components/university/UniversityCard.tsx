@@ -56,7 +56,7 @@ export function UniversityCard({ university }: UniversityCardProps) {
                     {!isEmpty(university.studentCount) && (
                         <div className="flex items-center gap-1.5 px-3 py-1.5 bg-blue-50 rounded-lg">
                             <Users className="w-4 h-4 text-blue-600" />
-                            <span className="font-medium text-blue-900">{university.studentCount.toLocaleString()}</span>
+                            <span className="font-medium text-blue-900">{university.studentCount.toLocaleString('ru-RU')}</span>
                         </div>
                     )}
                     {!isEmpty(university.acceptanceRate) && (
